@@ -1,0 +1,258 @@
+{
+  "version": "1.0",
+  "truncation": null,
+  "padding": null,
+  "added_tokens": [
+    {
+      "id": 0,
+      "content": "<s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 1,
+      "content": "</s>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 2,
+      "content": "<unk>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 3,
+      "content": "<pad>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    },
+    {
+      "id": 4,
+      "content": "<mask>",
+      "single_word": false,
+      "lstrip": false,
+      "rstrip": false,
+      "normalized": false,
+      "special": true
+    }
+  ],
+  "normalizer": null,
+  "pre_tokenizer": {
+    "type": "Whitespace"
+  },
+  "post_processor": null,
+  "decoder": null,
+  "model": {
+    "type": "BPE",
+    "dropout": null,
+    "unk_token": "<unk>",
+    "continuing_subword_prefix": null,
+    "end_of_word_suffix": null,
+    "fuse_unk": false,
+    "byte_fallback": false,
+    "ignore_merges": false,
+    "vocab": {
+      "<s>": 0,
+      "</s>": 1,
+      "<unk>": 2,
+      "<pad>": 3,
+      "<mask>": 4,
+      "一": 5,
+      "不": 6,
+      "世": 7,
+      "个": 8,
+      "习": 9,
+      "亲": 10,
+      "人": 11,
+      "今": 12,
+      "做": 13,
+      "变": 14,
+      "在": 15,
+      "型": 16,
+      "大": 17,
+      "天": 18,
+      "学": 19,
+      "工": 20,
+      "想": 21,
+      "我": 22,
+      "手": 23,
+      "技": 24,
+      "改": 25,
+      "智": 26,
+      "术": 27,
+      "模": 28,
+      "正": 29,
+      "气": 30,
+      "爱": 31,
+      "界": 32,
+      "真": 33,
+      "能": 34,
+      "错": 35,
+      "大模": 36,
+      "大模型": 37,
+      "一个": 38,
+      "不错": 39,
+      "世界": 40,
+      "习人": 41,
+      "亲手": 42,
+      "今天": 43,
+      "做一个": 44,
+      "变世界": 45,
+      "在改": 46,
+      "天气": 47,
+      "学习人": 48,
+      "工智": 49,
+      "想亲手": 50,
+      "我爱": 51,
+      "我想亲手": 52,
+      "技术": 53,
+      "正在改": 54,
+      "真不错": 55,
+      "大模型技术": 56,
+      "今天天气": 57,
+      "做一个大模型": 58,
+      "学习人工智": 59,
+      "我爱学习人工智": 60,
+      "我想亲手做一个大模型": 61,
+      "正在改变世界": 62,
+      "大模型技术正在改变世界": 63,
+      "今天天气真不错": 64,
+      "我爱学习人工智能": 65
+    },
+    "merges": [
+      [
+        "大",
+        "模"
+      ],
+      [
+        "大模",
+        "型"
+      ],
+      [
+        "一",
+        "个"
+      ],
+      [
+        "不",
+        "错"
+      ],
+      [
+        "世",
+        "界"
+      ],
+      [
+        "习",
+        "人"
+      ],
+      [
+        "亲",
+        "手"
+      ],
+      [
+        "今",
+        "天"
+      ],
+      [
+        "做",
+        "一个"
+      ],
+      [
+        "变",
+        "世界"
+      ],
+      [
+        "在",
+        "改"
+      ],
+      [
+        "天",
+        "气"
+      ],
+      [
+        "学",
+        "习人"
+      ],
+      [
+        "工",
+        "智"
+      ],
+      [
+        "想",
+        "亲手"
+      ],
+      [
+        "我",
+        "爱"
+      ],
+      [
+        "我",
+        "想亲手"
+      ],
+      [
+        "技",
+        "术"
+      ],
+      [
+        "正",
+        "在改"
+      ],
+      [
+        "真",
+        "不错"
+      ],
+      [
+        "大模型",
+        "技术"
+      ],
+      [
+        "今天",
+        "天气"
+      ],
+      [
+        "做一个",
+        "大模型"
+      ],
+      [
+        "学习人",
+        "工智"
+      ],
+      [
+        "我爱",
+        "学习人工智"
+      ],
+      [
+        "我想亲手",
+        "做一个大模型"
+      ],
+      [
+        "正在改",
+        "变世界"
+      ],
+      [
+        "大模型技术",
+        "正在改变世界"
+      ],
+      [
+        "今天天气",
+        "真不错"
+      ],
+      [
+        "我爱学习人工智",
+        "能"
+      ]
+    ]
+  }
+}
